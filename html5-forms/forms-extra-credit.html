@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Account Registration</h1>
+    <form >
+        <fieldset>
+            <legend>Type of User</legend>
+            <span>
+                <label>What time of user are you?</label>
+                <input type="radio" name="customer">Customer
+                <input type="radio" name=employee>Employee/Contractor
+                <input type="radio" name="federal">Federal Employee/Contractor
+            </span>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Email</legend>
+            <span>
+                <label>Personal Email Address</label>
+                <input type="email">
+                <label>Business Email Address</label>
+                <input type="email">
+            </span>
+        </fieldset> 
+        <fieldset>
+            <legend>Password</legend>
+            <span>
+                <label>Password</label>
+                <input type="password">
+            </span>
+        </fieldset> 
+        <fieldset>
+            <legend>Use Case</legend>
+            <span>
+                <label>I'm interested in:</label>
+                <select name="dropdown" id="dropdown">
+                    <option value="Personal">Personal</option>
+                    <option value="Business">Business</option>
+                </select>
+            </span>
+        </fieldset> 
+        <fieldset>
+            <legend>Age Verification</legend>
+            <span>
+                <label>I am over 18 years of age.</label>
+                <input type="checkbox">
+            </span>
+        </fieldset> 
+
+    </form>
+</body>
+</html>
